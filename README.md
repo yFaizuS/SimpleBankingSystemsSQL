@@ -17,19 +17,19 @@ This project implements a basic banking system using MySQL. It includes tables f
    CREATE DATABASE BankingSystem;
 2. Run the Schema Script
 Create the tables and indexes by executing the schema.sql script. This sets up the database structure. Use the following command:
-`USE BankingSystem;
-SOURCE /path/to/schema.sql;`
+`USE BankingSystem;`
+`SOURCE /path/to/schema.sql;`
 
 (Replace `/path/to/schema.sql` with the actual path to your schema.sql file)
 
 4. Insert Sample Data
 Populate the database with sample data by executing the data.sql script. This adds initial records to the tables. Use the following command:
 
-`SOURCE /path/to/data.sql;
-Replace /path/to/data.sql with the actual path to your data.sql file.`
+`SOURCE /path/to/data.sql;`
+`Replace /path/to/data.sql with the actual path to your data.sql file.`
 
 4. Run Example Queries
 Execute common queries from the queries.sql file to test and interact with your database. You can run the queries directly in your MySQL client:
 
-`SOURCE /path/to/queries.sql;
-Replace /path/to/queries.sql with the actual path to your queries.sql file.`
+`SOURCE /path/to/queries.sql;`
+`Replace /path/to/queries.sql with the actual path to your queries.sql file.`
